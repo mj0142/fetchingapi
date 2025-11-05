@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopcornTime</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/a0c5c115e8.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <figure class="header_background-wrapper">
+            <img src="./assets/header_background.jpg" alt="" class="header_background">
+        </figure>
+        <div class="nav_search-wrapper">
+            <nav>
+                <div class="navbar_logo">
+                    <h2 class="navbar_logo-text">Movie<span class="blue_text">Time</span></h2>
+                </div>
+                <div class="navbar_links">
+                    <ul class="navbar_link-list">
+                        <li class="navbar_link-item">
+                            <a href="" class="navbar_link navbar_link-hover">Home</a>
+                        </li>
+                        <li class="navbar_link-item">
+                            <a href="" class="navbar_link navbar_link-hover">About</a>
+                        </li>
+                        <li class="navbar_link-item">
+                            <a href="" class="navbar_link navbar_link-primary">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="input_wrapper">
+                <div class="row">
+                    <h2 class="search_section-heading">Search for your favourite <span class="blue_text">movies/tv
+                            shows</span></h2>
+                    <form class="search_button-wrapper" onsubmit="renderMovies(); return false;">
+                        <input type="search" name="movie-search" id="movie_input" class="search_input"
+                            placeholder="Enter keywords...">
+                        <button class="search_button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="progress">
+            <div class="progress__track"></div>
+        </div>
+        <div class="row">
+            <div class="filter_section-wrapper">
+                <h2 class="movie_header">
+                    Search Results
+                </h2>
+                <div class="filter_header-wrapper">
+                    <div class="filter_header">
+                        <h3 class="filter_input-title">
+                            <p class="filter_input-release">Release Date:
+                                <span id="year" class="primary-year">1962</span>
+                            </p>
+                        </h3>
+                        <div class="checkbox-wrapper">
+                            <label class="switch">
+                                <input type="checkbox" id="filter_checkbox" onchange="activeFilter()">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter_range">
+                        <input type="range" class="filter_input" id="filter_input" onchange="filterChange()" min="1900"
+                            max="2023">
+                    </div>
+                </div>
+            </div>
+            <div class="movie_list">
+                <div class="movie">
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
