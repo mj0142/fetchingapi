@@ -18,7 +18,7 @@ a {
 }
 
 .blue_text {
-    color: #00b4d8;
+    color: #003ad8;
 }
 
 /* NAVIGATION */
@@ -55,7 +55,7 @@ nav {
 }
 
 .navbar_logo-text {
-    color: #caf0f8;
+    color: #abd0d7;
     font-family: 600;
 }
 
@@ -69,7 +69,7 @@ nav {
 }
 
 .navbar_link {
-    color: #d9f0f5;
+    color: #a3ddfa;
     font-weight: 400;
 }
 
@@ -82,7 +82,7 @@ nav {
 }
 
 .navbar_link-primary:hover{
-    background-color: #1eb3d1;
+    background-color: #12a1bd;
 }
 
 .navbar_link-hover {
@@ -95,7 +95,7 @@ nav {
     bottom: -4px;
     right: 0;
     height: 2px;
-    background-color: #fff;
+    background-color: #ffffff;
     width: 0;
     transition: all 300ms ease;
 }
@@ -119,7 +119,7 @@ nav {
 }
 
 .search_section-heading {
-    color: #caf0f8;
+    color: #cae3f8;
 }
 
 .search_input {
@@ -136,7 +136,7 @@ nav {
 .search_button {
     font-size: 14px;
     padding: 8px 24px;
-    background-color: #0077b6;
+    background-color: #3a00b6;
     font-weight: 700;
     color: #fff;
     border: none;
@@ -151,7 +151,7 @@ nav {
 .progress {
     width: 100%;
     height: 8px;
-    background-color: #00b4d8;
+    background-color: #005ed8;
     position: relative;
     overflow: hidden;
     display: none;
@@ -207,7 +207,7 @@ nav {
 }
 
 .movie_title-search {
-    color: #0077b6;
+    color: #6700b6;
 }
 
 .filter_header-wrapper {
@@ -237,7 +237,7 @@ nav {
 }
 
 .primary-year {
-    color: #007bff;
+    color: #8c00ff;
 }
 
 .checkbox-wrapper input[type="checkbox"] {
@@ -276,7 +276,7 @@ nav {
     right: 0;
     bottom: 0;
     background-color: #fff;
-    border: 1px solid #adb5bd;
+    border: 1px solid #adbdbb;
     transition: .4s;
     border-radius: 30px;
 }
@@ -289,17 +289,17 @@ nav {
     border-radius: 20px;
     left: 0.27em;
     bottom: 0.25em;
-    background-color: #adb5bd;
+    background-color: #adbdbb;
     transition: .4s;
 }
 
 .checkbox-wrapper input:checked+.slider {
-    background-color: #007bff;
-    border: 1px solid #007bff;
+    background-color: #00ffc3;
+    border: 1px solid #00e5ff;
 }
 
 .checkbox-wrapper input:focus+.slider {
-    box-shadow: 0 0 1px #007bff;
+    box-shadow: 0 0 1px #9900ff;
 }
 
 .checkbox-wrapper input:checked+.slider:before {
