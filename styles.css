@@ -223,7 +223,7 @@ nav {
 }
 
 .filter_header-wrapper::after {
-    content: "2023";
+    content: "2025";
     position: absolute;
     right: 0;
     bottom: -16px;
