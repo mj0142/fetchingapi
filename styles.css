@@ -18,7 +18,7 @@ a {
 }
 
 .blue_text {
-    color: #003ad8;
+    color: #4891a9;
 }
 
 /* NAVIGATION */
@@ -136,7 +136,7 @@ nav {
 .search_button {
     font-size: 14px;
     padding: 8px 24px;
-    background-color: #3a00b6;
+    background-color: #009eb6;
     font-weight: 700;
     color: #fff;
     border: none;
