@@ -395,11 +395,11 @@ nav {
     .header_background{
         height: 100%;
     }
-    /* .movie_card{
+     .movie_card{
         height: 100%;
-    } */
+    } 
     .movie_name{
-        font-size: 14px;
+        font-size: 16px;
     }
     .movie_year{
         font-size: 12px;
@@ -414,4 +414,8 @@ nav {
         height: max-content;
         width: 51%;
     }
+}
+
+body {
+  background-color: #f5f5f5;
 }
